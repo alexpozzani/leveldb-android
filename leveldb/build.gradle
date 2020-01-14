@@ -124,12 +124,7 @@ task preBuildLevelDB {
 
     doLast {
         exec {
-            if (isWindows()) {
-                commandLine 'cmd', '/c', projectDir.getAbsolutePath() + '/src/main/jni-prebuild/prebuild.bat'
-            }
-            else {
-                commandLine 'sh', projectDir.getAbsolutePath() + '/src/main/jni-prebuild/prebuild'
-            }
+            commandLine 'sh', projectDir.getAbsolutePath() + '/src/main/jni-prebuild/prebuild'
         }
     }
 }
