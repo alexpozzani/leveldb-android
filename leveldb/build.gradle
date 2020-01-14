@@ -95,12 +95,12 @@ bintray {
 }
 
 android {
-    compileSdkVersion 24 
-    buildToolsVersion "23.0.3"
+    compileSdkVersion 28
+    // buildToolsVersion "23.0.3"
 
     defaultConfig {
-        minSdkVersion 10
-        targetSdkVersion 24 
+        minSdkVersion 16
+        targetSdkVersion 28
 
         testApplicationId "com.github.hf.leveldb.test"
         testInstrumentationRunner "android.test.InstrumentationTestRunner"
@@ -116,15 +116,20 @@ android {
 }
 
 dependencies {
-    androidTestCompile 'commons-io:commons-io:2.+'
-    androidTestCompile 'org.assertj:assertj-core:1.6.+'
+    androidTestImplementation 'commons-io:commons-io:2.+'
+    androidTestImplementation 'org.assertj:assertj-core:1.6.+'
 }
 
 task preBuildLevelDB {
 
     doLast {
         exec {
-            commandLine 'sh', projectDir.getAbsolutePath() + '/src/main/jni-prebuild/prebuild'
+            if (isWindows()) {
+                commandLine 'cmd', '/c', projectDir.getAbsolutePath() + '/src/main/jni-prebuild/prebuild.bat'
+            }
+            else {
+                commandLine 'sh', projectDir.getAbsolutePath() + '/src/main/jni-prebuild/prebuild'
+            }
         }
     }
 }
