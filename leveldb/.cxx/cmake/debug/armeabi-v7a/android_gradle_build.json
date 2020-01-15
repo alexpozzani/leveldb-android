@@ -1,0 +1,1688 @@
+{
+  "stringTable": {
+    "0": "C:/Projetos/leveldb-android/leveldb/.cxx/cmake/debug/armeabi-v7a",
+    "1": "--target=armv7-none-linux-androideabi16 --gcc-toolchain=C:/Users/alex.SISPLUS/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/alex.SISPLUS/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot -DLEVELDB_PLATFORM_POSIX=1 -Iinclude -IC:/Projetos/leveldb-android/leveldb/src/main/cpp -IC:/Projetos/leveldb-android/leveldb/src/main/cpp/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -O0 -fno-limit-debug-info -fPIE -Werror -Wthread-safety -std=c++11",
+    "2": "--target=armv7-none-linux-androideabi16 --gcc-toolchain=C:/Users/alex.SISPLUS/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/alex.SISPLUS/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot -DLEVELDB_PLATFORM_POSIX=1 -Iinclude -IC:/Projetos/leveldb-android/leveldb/src/main/cpp -IC:/Projetos/leveldb-android/leveldb/src/main/cpp/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -O0 -fno-limit-debug-info -fPIE -Werror -Wthread-safety -std=c11",
+    "3": "--target=armv7-none-linux-androideabi16 --gcc-toolchain=C:/Users/alex.SISPLUS/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/alex.SISPLUS/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_POSIX=1 -Dleveldb_EXPORTS -Iinclude -IC:/Projetos/leveldb-android/leveldb/src/main/cpp -IC:/Projetos/leveldb-android/leveldb/src/main/cpp/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -O0 -fno-limit-debug-info -fPIC -Werror -Wthread-safety -std=c++11",
+    "4": "--target=armv7-none-linux-androideabi16 --gcc-toolchain=C:/Users/alex.SISPLUS/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/alex.SISPLUS/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Iinclude -IC:/Projetos/leveldb-android/leveldb/src/main/cpp -IC:/Projetos/leveldb-android/leveldb/src/main/cpp/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -O0 -fno-limit-debug-info -fPIE -Werror -Wthread-safety -std=c++11"
+  },
+  "buildFiles": [
+    "C:\\Users\\alex.SISPLUS\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\build\\cmake\\android.toolchain.cmake",
+    "C:\\Users\\alex.SISPLUS\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\build\\cmake\\platforms.cmake",
+    "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\port\\port_config.h.in",
+    "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "C:\\Users\\alex.SISPLUS\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\armeabi-v7a\" clean"
+  ],
+  "buildTargetsCommand": "C:\\Users\\alex.SISPLUS\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\armeabi-v7a\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "filter_block_test-Debug-armeabi-v7a": {
+      "buildCommand": "C:\\Users\\alex.SISPLUS\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\armeabi-v7a\" filter_block_test",
+      "buildType": "debug",
+      "toolchain": "1964015360",
+      "abi": "armeabi-v7a",
+      "artifactName": "filter_block_test",
+      "files": [
+        {
+          "src": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\util\\testharness.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\util\\testutil.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\table\\filter_block_test.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [
+        {
+          "header": "C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\armeabi-v7a\\include\\port\\port_config.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\util\\testharness.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\util\\testutil.h",
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "output": "C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\armeabi-v7a\\filter_block_test"
+    },
+    "bloom_test-Debug-armeabi-v7a": {
+      "buildCommand": "C:\\Users\\alex.SISPLUS\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\armeabi-v7a\" bloom_test",
+      "buildType": "debug",
+      "toolchain": "1964015360",
+      "abi": "armeabi-v7a",
+      "artifactName": "bloom_test",
+      "files": [
+        {
+          "src": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\util\\testharness.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\util\\testutil.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\util\\bloom_test.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [
+        {
+          "header": "C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\armeabi-v7a\\include\\port\\port_config.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\util\\testharness.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\util\\testutil.h",
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "output": "C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\armeabi-v7a\\bloom_test"
+    },
+    "skiplist_test-Debug-armeabi-v7a": {
+      "buildCommand": "C:\\Users\\alex.SISPLUS\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\armeabi-v7a\" skiplist_test",
+      "buildType": "debug",
+      "toolchain": "1964015360",
+      "abi": "armeabi-v7a",
+      "artifactName": "skiplist_test",
+      "files": [
+        {
+          "src": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\util\\testharness.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\util\\testutil.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\db\\skiplist_test.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [
+        {
+          "header": "C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\armeabi-v7a\\include\\port\\port_config.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\util\\testharness.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\util\\testutil.h",
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "output": "C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\armeabi-v7a\\skiplist_test"
+    },
+    "memenv_test-Debug-armeabi-v7a": {
+      "buildCommand": "C:\\Users\\alex.SISPLUS\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\armeabi-v7a\" memenv_test",
+      "buildType": "debug",
+      "toolchain": "1964015360",
+      "abi": "armeabi-v7a",
+      "artifactName": "memenv_test",
+      "files": [
+        {
+          "src": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\util\\testharness.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\util\\testutil.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\helpers\\memenv\\memenv_test.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [
+        {
+          "header": "C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\armeabi-v7a\\include\\port\\port_config.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\util\\testharness.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\util\\testutil.h",
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "output": "C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\armeabi-v7a\\memenv_test"
+    },
+    "issue320_test-Debug-armeabi-v7a": {
+      "buildCommand": "C:\\Users\\alex.SISPLUS\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\armeabi-v7a\" issue320_test",
+      "buildType": "debug",
+      "toolchain": "1964015360",
+      "abi": "armeabi-v7a",
+      "artifactName": "issue320_test",
+      "files": [
+        {
+          "src": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\util\\testharness.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\util\\testutil.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\issues\\issue320_test.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [
+        {
+          "header": "C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\armeabi-v7a\\include\\port\\port_config.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\util\\testharness.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\util\\testutil.h",
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "output": "C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\armeabi-v7a\\issue320_test"
+    },
+    "table_test-Debug-armeabi-v7a": {
+      "buildCommand": "C:\\Users\\alex.SISPLUS\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\armeabi-v7a\" table_test",
+      "buildType": "debug",
+      "toolchain": "1964015360",
+      "abi": "armeabi-v7a",
+      "artifactName": "table_test",
+      "files": [
+        {
+          "src": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\util\\testharness.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\util\\testutil.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\table\\table_test.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [
+        {
+          "header": "C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\armeabi-v7a\\include\\port\\port_config.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\util\\testharness.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\util\\testutil.h",
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "output": "C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\armeabi-v7a\\table_test"
+    },
+    "dbformat_test-Debug-armeabi-v7a": {
+      "buildCommand": "C:\\Users\\alex.SISPLUS\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\armeabi-v7a\" dbformat_test",
+      "buildType": "debug",
+      "toolchain": "1964015360",
+      "abi": "armeabi-v7a",
+      "artifactName": "dbformat_test",
+      "files": [
+        {
+          "src": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\util\\testharness.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\util\\testutil.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\db\\dbformat_test.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [
+        {
+          "header": "C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\armeabi-v7a\\include\\port\\port_config.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\util\\testharness.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\util\\testutil.h",
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "output": "C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\armeabi-v7a\\dbformat_test"
+    },
+    "hash_test-Debug-armeabi-v7a": {
+      "buildCommand": "C:\\Users\\alex.SISPLUS\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\armeabi-v7a\" hash_test",
+      "buildType": "debug",
+      "toolchain": "1964015360",
+      "abi": "armeabi-v7a",
+      "artifactName": "hash_test",
+      "files": [
+        {
+          "src": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\util\\testharness.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\util\\testutil.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\util\\hash_test.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [
+        {
+          "header": "C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\armeabi-v7a\\include\\port\\port_config.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\util\\testharness.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\util\\testutil.h",
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "output": "C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\armeabi-v7a\\hash_test"
+    },
+    "no_destructor_test-Debug-armeabi-v7a": {
+      "buildCommand": "C:\\Users\\alex.SISPLUS\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\armeabi-v7a\" no_destructor_test",
+      "buildType": "debug",
+      "toolchain": "1964015360",
+      "abi": "armeabi-v7a",
+      "artifactName": "no_destructor_test",
+      "files": [
+        {
+          "src": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\util\\testharness.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\util\\testutil.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\util\\no_destructor_test.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [
+        {
+          "header": "C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\armeabi-v7a\\include\\port\\port_config.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\util\\testharness.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\util\\testutil.h",
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "output": "C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\armeabi-v7a\\no_destructor_test"
+    },
+    "write_batch_test-Debug-armeabi-v7a": {
+      "buildCommand": "C:\\Users\\alex.SISPLUS\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\armeabi-v7a\" write_batch_test",
+      "buildType": "debug",
+      "toolchain": "1964015360",
+      "abi": "armeabi-v7a",
+      "artifactName": "write_batch_test",
+      "files": [
+        {
+          "src": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\util\\testharness.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\util\\testutil.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\db\\write_batch_test.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [
+        {
+          "header": "C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\armeabi-v7a\\include\\port\\port_config.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\util\\testharness.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\util\\testutil.h",
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "output": "C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\armeabi-v7a\\write_batch_test"
+    },
+    "issue178_test-Debug-armeabi-v7a": {
+      "buildCommand": "C:\\Users\\alex.SISPLUS\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\armeabi-v7a\" issue178_test",
+      "buildType": "debug",
+      "toolchain": "1964015360",
+      "abi": "armeabi-v7a",
+      "artifactName": "issue178_test",
+      "files": [
+        {
+          "src": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\util\\testharness.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\util\\testutil.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\issues\\issue178_test.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [
+        {
+          "header": "C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\armeabi-v7a\\include\\port\\port_config.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\util\\testharness.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\util\\testutil.h",
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "output": "C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\armeabi-v7a\\issue178_test"
+    },
+    "version_edit_test-Debug-armeabi-v7a": {
+      "buildCommand": "C:\\Users\\alex.SISPLUS\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\armeabi-v7a\" version_edit_test",
+      "buildType": "debug",
+      "toolchain": "1964015360",
+      "abi": "armeabi-v7a",
+      "artifactName": "version_edit_test",
+      "files": [
+        {
+          "src": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\util\\testharness.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\util\\testutil.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\db\\version_edit_test.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [
+        {
+          "header": "C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\armeabi-v7a\\include\\port\\port_config.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\util\\testharness.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\util\\testutil.h",
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "output": "C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\armeabi-v7a\\version_edit_test"
+    },
+    "coding_test-Debug-armeabi-v7a": {
+      "buildCommand": "C:\\Users\\alex.SISPLUS\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\armeabi-v7a\" coding_test",
+      "buildType": "debug",
+      "toolchain": "1964015360",
+      "abi": "armeabi-v7a",
+      "artifactName": "coding_test",
+      "files": [
+        {
+          "src": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\util\\testharness.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\util\\testutil.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\util\\coding_test.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [
+        {
+          "header": "C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\armeabi-v7a\\include\\port\\port_config.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\util\\testharness.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\util\\testutil.h",
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "output": "C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\armeabi-v7a\\coding_test"
+    },
+    "leveldb-Debug-armeabi-v7a": {
+      "buildCommand": "C:\\Users\\alex.SISPLUS\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\armeabi-v7a\" leveldb",
+      "buildType": "debug",
+      "toolchain": "1964015360",
+      "abi": "armeabi-v7a",
+      "artifactName": "leveldb",
+      "files": [
+        {
+          "src": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\com_github_hf_leveldb_implementation_NativeLevelDB.cc",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\com_github_hf_leveldb_implementation_NativeIterator.cc",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\com_github_hf_leveldb_implementation_NativeWriteBatch.cc",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\db\\builder.cc",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\db\\c.cc",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\db\\db_impl.cc",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\db\\db_iter.cc",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\db\\dbformat.cc",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\db\\dumpfile.cc",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\db\\filename.cc",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\db\\log_reader.cc",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\db\\log_writer.cc",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\db\\memtable.cc",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\db\\repair.cc",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\db\\table_cache.cc",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\db\\version_edit.cc",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\db\\version_set.cc",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\db\\write_batch.cc",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\table\\block_builder.cc",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\table\\block.cc",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\table\\filter_block.cc",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\table\\format.cc",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\table\\iterator.cc",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\table\\merger.cc",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\table\\table_builder.cc",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\table\\table.cc",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\table\\two_level_iterator.cc",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\util\\arena.cc",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\util\\bloom.cc",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\util\\cache.cc",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\util\\coding.cc",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\util\\comparator.cc",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\util\\crc32c.cc",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\util\\env.cc",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\util\\filter_policy.cc",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\util\\hash.cc",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\util\\logging.cc",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\util\\options.cc",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\util\\status.cc",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\util\\env_posix.cc",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\helpers\\memenv\\memenv.cc",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [
+        {
+          "header": "C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\armeabi-v7a\\include\\port\\port_config.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\db\\builder.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\db\\db_impl.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\db\\db_iter.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\db\\dbformat.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\db\\filename.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\db\\log_format.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\db\\log_reader.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\db\\log_writer.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\db\\memtable.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\db\\skiplist.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\db\\snapshot.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\db\\table_cache.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\db\\version_edit.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\db\\version_set.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\db\\write_batch_internal.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\port\\port_stdcxx.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\port\\port.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\port\\thread_annotations.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\table\\block_builder.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\table\\block.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\table\\filter_block.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\table\\format.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\table\\iterator_wrapper.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\table\\merger.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\table\\two_level_iterator.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\util\\arena.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\util\\coding.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\util\\crc32c.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\util\\hash.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\util\\logging.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\util\\mutexlock.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\util\\no_destructor.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\util\\random.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\include\\leveldb\\c.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\include\\leveldb\\cache.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\include\\leveldb\\comparator.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\include\\leveldb\\db.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\include\\leveldb\\dumpfile.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\include\\leveldb\\env.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\include\\leveldb\\export.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\include\\leveldb\\filter_policy.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\include\\leveldb\\iterator.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\include\\leveldb\\options.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\include\\leveldb\\slice.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\include\\leveldb\\status.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\include\\leveldb\\table_builder.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\include\\leveldb\\table.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\include\\leveldb\\write_batch.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\util\\posix_logger.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\helpers\\memenv\\memenv.h",
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "output": "C:\\Projetos\\leveldb-android\\leveldb\\build\\intermediates\\cmake\\debug\\obj\\armeabi-v7a\\libleveldb.so"
+    },
+    "status_test-Debug-armeabi-v7a": {
+      "buildCommand": "C:\\Users\\alex.SISPLUS\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\armeabi-v7a\" status_test",
+      "buildType": "debug",
+      "toolchain": "1964015360",
+      "abi": "armeabi-v7a",
+      "artifactName": "status_test",
+      "files": [
+        {
+          "src": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\util\\testharness.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\util\\testutil.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\util\\status_test.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [
+        {
+          "header": "C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\armeabi-v7a\\include\\port\\port_config.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\util\\testharness.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\util\\testutil.h",
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "output": "C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\armeabi-v7a\\status_test"
+    },
+    "c_test-Debug-armeabi-v7a": {
+      "buildCommand": "C:\\Users\\alex.SISPLUS\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\armeabi-v7a\" c_test",
+      "buildType": "debug",
+      "toolchain": "1964015360",
+      "abi": "armeabi-v7a",
+      "artifactName": "c_test",
+      "files": [
+        {
+          "src": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\db\\c_test.c",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\util\\testharness.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\util\\testutil.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [
+        {
+          "header": "C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\armeabi-v7a\\include\\port\\port_config.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\util\\testharness.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\util\\testutil.h",
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "output": "C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\armeabi-v7a\\c_test"
+    },
+    "crc32c_test-Debug-armeabi-v7a": {
+      "buildCommand": "C:\\Users\\alex.SISPLUS\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\armeabi-v7a\" crc32c_test",
+      "buildType": "debug",
+      "toolchain": "1964015360",
+      "abi": "armeabi-v7a",
+      "artifactName": "crc32c_test",
+      "files": [
+        {
+          "src": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\util\\testharness.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\util\\testutil.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\util\\crc32c_test.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [
+        {
+          "header": "C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\armeabi-v7a\\include\\port\\port_config.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\util\\testharness.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\util\\testutil.h",
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "output": "C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\armeabi-v7a\\crc32c_test"
+    },
+    "corruption_test-Debug-armeabi-v7a": {
+      "buildCommand": "C:\\Users\\alex.SISPLUS\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\armeabi-v7a\" corruption_test",
+      "buildType": "debug",
+      "toolchain": "1964015360",
+      "abi": "armeabi-v7a",
+      "artifactName": "corruption_test",
+      "files": [
+        {
+          "src": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\util\\testharness.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\util\\testutil.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\db\\corruption_test.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [
+        {
+          "header": "C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\armeabi-v7a\\include\\port\\port_config.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\util\\testharness.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\util\\testutil.h",
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "output": "C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\armeabi-v7a\\corruption_test"
+    },
+    "cache_test-Debug-armeabi-v7a": {
+      "buildCommand": "C:\\Users\\alex.SISPLUS\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\armeabi-v7a\" cache_test",
+      "buildType": "debug",
+      "toolchain": "1964015360",
+      "abi": "armeabi-v7a",
+      "artifactName": "cache_test",
+      "files": [
+        {
+          "src": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\util\\testharness.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\util\\testutil.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\util\\cache_test.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [
+        {
+          "header": "C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\armeabi-v7a\\include\\port\\port_config.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\util\\testharness.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\util\\testutil.h",
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "output": "C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\armeabi-v7a\\cache_test"
+    },
+    "issue200_test-Debug-armeabi-v7a": {
+      "buildCommand": "C:\\Users\\alex.SISPLUS\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\armeabi-v7a\" issue200_test",
+      "buildType": "debug",
+      "toolchain": "1964015360",
+      "abi": "armeabi-v7a",
+      "artifactName": "issue200_test",
+      "files": [
+        {
+          "src": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\util\\testharness.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\util\\testutil.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\issues\\issue200_test.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [
+        {
+          "header": "C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\armeabi-v7a\\include\\port\\port_config.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\util\\testharness.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\util\\testutil.h",
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "output": "C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\armeabi-v7a\\issue200_test"
+    },
+    "env_test-Debug-armeabi-v7a": {
+      "buildCommand": "C:\\Users\\alex.SISPLUS\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\armeabi-v7a\" env_test",
+      "buildType": "debug",
+      "toolchain": "1964015360",
+      "abi": "armeabi-v7a",
+      "artifactName": "env_test",
+      "files": [
+        {
+          "src": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\util\\testharness.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\util\\testutil.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\util\\env_test.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [
+        {
+          "header": "C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\armeabi-v7a\\include\\port\\port_config.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\util\\testharness.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\util\\testutil.h",
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "output": "C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\armeabi-v7a\\env_test"
+    },
+    "env_posix_test-Debug-armeabi-v7a": {
+      "buildCommand": "C:\\Users\\alex.SISPLUS\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\armeabi-v7a\" env_posix_test",
+      "buildType": "debug",
+      "toolchain": "1964015360",
+      "abi": "armeabi-v7a",
+      "artifactName": "env_posix_test",
+      "files": [
+        {
+          "src": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\util\\testharness.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\util\\testutil.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\util\\env_posix_test.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [
+        {
+          "header": "C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\armeabi-v7a\\include\\port\\port_config.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\util\\testharness.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\util\\testutil.h",
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "output": "C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\armeabi-v7a\\env_posix_test"
+    },
+    "filename_test-Debug-armeabi-v7a": {
+      "buildCommand": "C:\\Users\\alex.SISPLUS\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\armeabi-v7a\" filename_test",
+      "buildType": "debug",
+      "toolchain": "1964015360",
+      "abi": "armeabi-v7a",
+      "artifactName": "filename_test",
+      "files": [
+        {
+          "src": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\util\\testharness.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\util\\testutil.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\db\\filename_test.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [
+        {
+          "header": "C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\armeabi-v7a\\include\\port\\port_config.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\util\\testharness.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\util\\testutil.h",
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "output": "C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\armeabi-v7a\\filename_test"
+    },
+    "log_test-Debug-armeabi-v7a": {
+      "buildCommand": "C:\\Users\\alex.SISPLUS\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\armeabi-v7a\" log_test",
+      "buildType": "debug",
+      "toolchain": "1964015360",
+      "abi": "armeabi-v7a",
+      "artifactName": "log_test",
+      "files": [
+        {
+          "src": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\util\\testharness.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\util\\testutil.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\db\\log_test.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [
+        {
+          "header": "C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\armeabi-v7a\\include\\port\\port_config.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\util\\testharness.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\util\\testutil.h",
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "output": "C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\armeabi-v7a\\log_test"
+    },
+    "recovery_test-Debug-armeabi-v7a": {
+      "buildCommand": "C:\\Users\\alex.SISPLUS\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\armeabi-v7a\" recovery_test",
+      "buildType": "debug",
+      "toolchain": "1964015360",
+      "abi": "armeabi-v7a",
+      "artifactName": "recovery_test",
+      "files": [
+        {
+          "src": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\util\\testharness.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\util\\testutil.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\db\\recovery_test.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [
+        {
+          "header": "C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\armeabi-v7a\\include\\port\\port_config.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\util\\testharness.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\util\\testutil.h",
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "output": "C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\armeabi-v7a\\recovery_test"
+    },
+    "leveldbutil-Debug-armeabi-v7a": {
+      "buildCommand": "C:\\Users\\alex.SISPLUS\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\armeabi-v7a\" leveldbutil",
+      "buildType": "debug",
+      "toolchain": "1964015360",
+      "abi": "armeabi-v7a",
+      "artifactName": "leveldbutil",
+      "files": [
+        {
+          "src": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\db\\leveldbutil.cc",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [],
+      "output": "C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\armeabi-v7a\\leveldbutil"
+    },
+    "fault_injection_test-Debug-armeabi-v7a": {
+      "buildCommand": "C:\\Users\\alex.SISPLUS\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\armeabi-v7a\" fault_injection_test",
+      "buildType": "debug",
+      "toolchain": "1964015360",
+      "abi": "armeabi-v7a",
+      "artifactName": "fault_injection_test",
+      "files": [
+        {
+          "src": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\util\\testharness.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\util\\testutil.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\db\\fault_injection_test.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [
+        {
+          "header": "C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\armeabi-v7a\\include\\port\\port_config.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\util\\testharness.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\util\\testutil.h",
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "output": "C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\armeabi-v7a\\fault_injection_test"
+    },
+    "arena_test-Debug-armeabi-v7a": {
+      "buildCommand": "C:\\Users\\alex.SISPLUS\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\armeabi-v7a\" arena_test",
+      "buildType": "debug",
+      "toolchain": "1964015360",
+      "abi": "armeabi-v7a",
+      "artifactName": "arena_test",
+      "files": [
+        {
+          "src": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\util\\testharness.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\util\\testutil.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\util\\arena_test.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [
+        {
+          "header": "C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\armeabi-v7a\\include\\port\\port_config.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\util\\testharness.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\util\\testutil.h",
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "output": "C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\armeabi-v7a\\arena_test"
+    },
+    "version_set_test-Debug-armeabi-v7a": {
+      "buildCommand": "C:\\Users\\alex.SISPLUS\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\armeabi-v7a\" version_set_test",
+      "buildType": "debug",
+      "toolchain": "1964015360",
+      "abi": "armeabi-v7a",
+      "artifactName": "version_set_test",
+      "files": [
+        {
+          "src": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\util\\testharness.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\util\\testutil.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\db\\version_set_test.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [
+        {
+          "header": "C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\armeabi-v7a\\include\\port\\port_config.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\util\\testharness.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\util\\testutil.h",
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "output": "C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\armeabi-v7a\\version_set_test"
+    },
+    "autocompact_test-Debug-armeabi-v7a": {
+      "buildCommand": "C:\\Users\\alex.SISPLUS\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\armeabi-v7a\" autocompact_test",
+      "buildType": "debug",
+      "toolchain": "1964015360",
+      "abi": "armeabi-v7a",
+      "artifactName": "autocompact_test",
+      "files": [
+        {
+          "src": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\util\\testharness.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\util\\testutil.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\db\\autocompact_test.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [
+        {
+          "header": "C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\armeabi-v7a\\include\\port\\port_config.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\util\\testharness.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\util\\testutil.h",
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "output": "C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\armeabi-v7a\\autocompact_test"
+    },
+    "db_test-Debug-armeabi-v7a": {
+      "buildCommand": "C:\\Users\\alex.SISPLUS\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\armeabi-v7a\" db_test",
+      "buildType": "debug",
+      "toolchain": "1964015360",
+      "abi": "armeabi-v7a",
+      "artifactName": "db_test",
+      "files": [
+        {
+          "src": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\util\\testharness.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\util\\testutil.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\db\\db_test.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [
+        {
+          "header": "C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\armeabi-v7a\\include\\port\\port_config.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\util\\testharness.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\util\\testutil.h",
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "output": "C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\armeabi-v7a\\db_test"
+    },
+    "logging_test-Debug-armeabi-v7a": {
+      "buildCommand": "C:\\Users\\alex.SISPLUS\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\armeabi-v7a\" logging_test",
+      "buildType": "debug",
+      "toolchain": "1964015360",
+      "abi": "armeabi-v7a",
+      "artifactName": "logging_test",
+      "files": [
+        {
+          "src": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\util\\testharness.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\util\\testutil.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\util\\logging_test.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [
+        {
+          "header": "C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\armeabi-v7a\\include\\port\\port_config.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\util\\testharness.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\util\\testutil.h",
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "output": "C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\armeabi-v7a\\logging_test"
+    },
+    "db_bench-Debug-armeabi-v7a": {
+      "buildCommand": "C:\\Users\\alex.SISPLUS\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\armeabi-v7a\" db_bench",
+      "buildType": "debug",
+      "toolchain": "1964015360",
+      "abi": "armeabi-v7a",
+      "artifactName": "db_bench",
+      "files": [
+        {
+          "src": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\util\\histogram.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\util\\testharness.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\util\\testutil.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\db\\db_bench.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [
+        {
+          "header": "C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\armeabi-v7a\\include\\port\\port_config.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\util\\histogram.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\util\\testharness.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\util\\testutil.h",
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "output": "C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\armeabi-v7a\\db_bench"
+    }
+  },
+  "toolchains": {
+    "1964015360": {
+      "cCompilerExecutable": "C:\\Users\\alex.SISPLUS\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe",
+      "cppCompilerExecutable": "C:\\Users\\alex.SISPLUS\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe"
+    }
+  },
+  "cFileExtensions": [
+    "c"
+  ],
+  "cppFileExtensions": [
+    "cc"
+  ]
+}

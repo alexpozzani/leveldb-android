@@ -19,7 +19,7 @@ def gitVersion = { ->
 def GIT_VERSION = gitVersion()
 def MAIN_VERSION = GIT_VERSION.replaceFirst(/-[a-z0A-Z-9]+$/, '')
 def VERSION = GIT_VERSION.replaceFirst(/^leveldb-android-/, '')
-def LEVELDB_VERSION = VERSION.replaceFirst(/[.][0-9]+(-.+)?$/, '')
+def LEVELDB_VERSION = "1.22"
 
 System.out.println "VERSION: ${VERSION}"
 System.out.println "GIT_VERSION: ${GIT_VERSION}"
@@ -113,6 +113,13 @@ android {
             testCoverageEnabled = true
         }
     }
+
+    externalNativeBuild {
+        cmake {
+            path "src/main/cpp/CMakeLists.txt"
+            version "3.10.2"
+        }
+    }
 }
 
 dependencies {
@@ -120,6 +127,7 @@ dependencies {
     androidTestImplementation 'org.assertj:assertj-core:1.6.+'
 }
 
+/*
 task preBuildLevelDB {
 
     doLast {
@@ -131,3 +139,4 @@ task preBuildLevelDB {
 
 preBuild.dependsOn preBuildLevelDB
 preBuild {}.mustRunAfter preBuildLevelDB
+*/

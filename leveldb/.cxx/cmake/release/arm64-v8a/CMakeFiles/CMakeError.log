@@ -1,0 +1,114 @@
+Determining if the function crc32c_value exists in the crc32c failed with the following output:
+Change Dir: C:/Projetos/leveldb-android/leveldb/.cxx/cmake/release/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:\Users\alex.SISPLUS\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_84790"
+[1/2] Building C object CMakeFiles/cmTC_84790.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_84790
+FAILED: cmTC_84790 
+cmd.exe /C "cd . && C:\Users\alex.SISPLUS\AppData\Local\Android\Sdk\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=aarch64-none-linux-android21 --gcc-toolchain=C:/Users/alex.SISPLUS/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/alex.SISPLUS/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -DCHECK_FUNCTION_EXISTS=crc32c_value  -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments -Wl,-z,noexecstack -Wl,--gc-sections CMakeFiles/cmTC_84790.dir/CheckFunctionExists.c.o  -o cmTC_84790  -lcrc32c -latomic -lm && cd ."
+C:/Users/alex.SISPLUS/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/bin\ld: cannot find -lcrc32c
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+ninja: build stopped: subcommand failed.
+
+
+Determining if the function snappy_compress exists in the snappy failed with the following output:
+Change Dir: C:/Projetos/leveldb-android/leveldb/.cxx/cmake/release/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:\Users\alex.SISPLUS\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_b15e5"
+[1/2] Building C object CMakeFiles/cmTC_b15e5.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_b15e5
+FAILED: cmTC_b15e5 
+cmd.exe /C "cd . && C:\Users\alex.SISPLUS\AppData\Local\Android\Sdk\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=aarch64-none-linux-android21 --gcc-toolchain=C:/Users/alex.SISPLUS/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/alex.SISPLUS/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -DCHECK_FUNCTION_EXISTS=snappy_compress  -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments -Wl,-z,noexecstack -Wl,--gc-sections CMakeFiles/cmTC_b15e5.dir/CheckFunctionExists.c.o  -o cmTC_b15e5  -lsnappy -latomic -lm && cd ."
+C:/Users/alex.SISPLUS/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/bin\ld: cannot find -lsnappy
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+ninja: build stopped: subcommand failed.
+
+
+Determining if the function malloc exists in the tcmalloc failed with the following output:
+Change Dir: C:/Projetos/leveldb-android/leveldb/.cxx/cmake/release/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:\Users\alex.SISPLUS\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_e7262"
+[1/2] Building C object CMakeFiles/cmTC_e7262.dir/CheckFunctionExists.c.o
+C:/Users/alex.SISPLUS/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'malloc' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:2:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS malloc
+                              ^
+C:/Users/alex.SISPLUS/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckFunctionExists.c:7:3: note: 'malloc' is a builtin with type 'void *(unsigned long)'
+<command line>:2:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS malloc
+                              ^
+1 warning generated.
+[2/2] Linking C executable cmTC_e7262
+FAILED: cmTC_e7262 
+cmd.exe /C "cd . && C:\Users\alex.SISPLUS\AppData\Local\Android\Sdk\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=aarch64-none-linux-android21 --gcc-toolchain=C:/Users/alex.SISPLUS/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/alex.SISPLUS/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -DCHECK_FUNCTION_EXISTS=malloc  -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments -Wl,-z,noexecstack -Wl,--gc-sections CMakeFiles/cmTC_e7262.dir/CheckFunctionExists.c.o  -o cmTC_e7262  -ltcmalloc -latomic -lm && cd ."
+C:/Users/alex.SISPLUS/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/bin\ld: cannot find -ltcmalloc
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+ninja: build stopped: subcommand failed.
+
+
+Determining if the F_FULLFSYNC exist failed with the following output:
+Change Dir: C:/Projetos/leveldb-android/leveldb/.cxx/cmake/release/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:\Users\alex.SISPLUS\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_3617e"
+[1/2] Building CXX object CMakeFiles/cmTC_3617e.dir/CheckSymbolExists.cxx.o
+FAILED: CMakeFiles/cmTC_3617e.dir/CheckSymbolExists.cxx.o 
+C:\Users\alex.SISPLUS\AppData\Local\Android\Sdk\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\bin\clang++.exe --target=aarch64-none-linux-android21 --gcc-toolchain=C:/Users/alex.SISPLUS/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/alex.SISPLUS/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot    -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security    -fPIE   -std=c++11 -o CMakeFiles/cmTC_3617e.dir/CheckSymbolExists.cxx.o -c CheckSymbolExists.cxx
+CheckSymbolExists.cxx:8:19: error: use of undeclared identifier 'F_FULLFSYNC'
+  return ((int*)(&F_FULLFSYNC))[argc];
+                  ^
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+File C:/Projetos/leveldb-android/leveldb/.cxx/cmake/release/arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <fcntl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef F_FULLFSYNC
+  return ((int*)(&F_FULLFSYNC))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function sqlite3_open exists in the sqlite3 failed with the following output:
+Change Dir: C:/Projetos/leveldb-android/leveldb/.cxx/cmake/release/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:\Users\alex.SISPLUS\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_5f8ff"
+[1/2] Building C object CMakeFiles/cmTC_5f8ff.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_5f8ff
+FAILED: cmTC_5f8ff 
+cmd.exe /C "cd . && C:\Users\alex.SISPLUS\AppData\Local\Android\Sdk\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=aarch64-none-linux-android21 --gcc-toolchain=C:/Users/alex.SISPLUS/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/alex.SISPLUS/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -DCHECK_FUNCTION_EXISTS=sqlite3_open  -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments -Wl,-z,noexecstack -Wl,--gc-sections CMakeFiles/cmTC_5f8ff.dir/CheckFunctionExists.c.o  -o cmTC_5f8ff  -lsqlite3 -latomic -lm && cd ."
+C:/Users/alex.SISPLUS/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/bin\ld: cannot find -lsqlite3
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+ninja: build stopped: subcommand failed.
+
+
+Performing C++ SOURCE FILE Test HAVE_KYOTOCABINET failed with the following output:
+Change Dir: C:/Projetos/leveldb-android/leveldb/.cxx/cmake/release/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:\Users\alex.SISPLUS\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_e8490"
+[1/2] Building CXX object CMakeFiles/cmTC_e8490.dir/src.cxx.o
+FAILED: CMakeFiles/cmTC_e8490.dir/src.cxx.o 
+C:\Users\alex.SISPLUS\AppData\Local\Android\Sdk\ndk-bundle\toolchains\llvm\prebuilt\windows-x86_64\bin\clang++.exe --target=aarch64-none-linux-android21 --gcc-toolchain=C:/Users/alex.SISPLUS/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/alex.SISPLUS/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot    -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -DHAVE_KYOTOCABINET -fPIE   -std=c++11 -o CMakeFiles/cmTC_e8490.dir/src.cxx.o -c src.cxx
+src.cxx:2:10: fatal error: 'kcpolydb.h' file not found
+#include <kcpolydb.h>
+         ^~~~~~~~~~~~
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+Source file was:
+
+#include <kcpolydb.h>
+
+int main() {
+  kyotocabinet::TreeDB* db = new kyotocabinet::TreeDB();
+  delete db;
+  return 0;
+}
+  

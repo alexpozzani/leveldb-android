@@ -1,0 +1,212 @@
+{
+  "buildFiles": [
+    "C:\\Users\\alex.SISPLUS\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\build\\cmake\\android.toolchain.cmake",
+    "C:\\Users\\alex.SISPLUS\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\build\\cmake\\platforms.cmake",
+    "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\port\\port_config.h.in",
+    "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "C:\\Users\\alex.SISPLUS\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\armeabi-v7a\" clean"
+  ],
+  "buildTargetsCommand": "C:\\Users\\alex.SISPLUS\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\armeabi-v7a\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "filter_block_test-Debug-armeabi-v7a": {
+      "artifactName": "filter_block_test",
+      "buildCommand": "C:\\Users\\alex.SISPLUS\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\armeabi-v7a\" filter_block_test",
+      "abi": "armeabi-v7a",
+      "output": "C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\armeabi-v7a\\filter_block_test"
+    },
+    "bloom_test-Debug-armeabi-v7a": {
+      "artifactName": "bloom_test",
+      "buildCommand": "C:\\Users\\alex.SISPLUS\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\armeabi-v7a\" bloom_test",
+      "abi": "armeabi-v7a",
+      "output": "C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\armeabi-v7a\\bloom_test"
+    },
+    "skiplist_test-Debug-armeabi-v7a": {
+      "artifactName": "skiplist_test",
+      "buildCommand": "C:\\Users\\alex.SISPLUS\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\armeabi-v7a\" skiplist_test",
+      "abi": "armeabi-v7a",
+      "output": "C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\armeabi-v7a\\skiplist_test"
+    },
+    "memenv_test-Debug-armeabi-v7a": {
+      "artifactName": "memenv_test",
+      "buildCommand": "C:\\Users\\alex.SISPLUS\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\armeabi-v7a\" memenv_test",
+      "abi": "armeabi-v7a",
+      "output": "C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\armeabi-v7a\\memenv_test"
+    },
+    "issue320_test-Debug-armeabi-v7a": {
+      "artifactName": "issue320_test",
+      "buildCommand": "C:\\Users\\alex.SISPLUS\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\armeabi-v7a\" issue320_test",
+      "abi": "armeabi-v7a",
+      "output": "C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\armeabi-v7a\\issue320_test"
+    },
+    "table_test-Debug-armeabi-v7a": {
+      "artifactName": "table_test",
+      "buildCommand": "C:\\Users\\alex.SISPLUS\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\armeabi-v7a\" table_test",
+      "abi": "armeabi-v7a",
+      "output": "C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\armeabi-v7a\\table_test"
+    },
+    "dbformat_test-Debug-armeabi-v7a": {
+      "artifactName": "dbformat_test",
+      "buildCommand": "C:\\Users\\alex.SISPLUS\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\armeabi-v7a\" dbformat_test",
+      "abi": "armeabi-v7a",
+      "output": "C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\armeabi-v7a\\dbformat_test"
+    },
+    "hash_test-Debug-armeabi-v7a": {
+      "artifactName": "hash_test",
+      "buildCommand": "C:\\Users\\alex.SISPLUS\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\armeabi-v7a\" hash_test",
+      "abi": "armeabi-v7a",
+      "output": "C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\armeabi-v7a\\hash_test"
+    },
+    "no_destructor_test-Debug-armeabi-v7a": {
+      "artifactName": "no_destructor_test",
+      "buildCommand": "C:\\Users\\alex.SISPLUS\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\armeabi-v7a\" no_destructor_test",
+      "abi": "armeabi-v7a",
+      "output": "C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\armeabi-v7a\\no_destructor_test"
+    },
+    "write_batch_test-Debug-armeabi-v7a": {
+      "artifactName": "write_batch_test",
+      "buildCommand": "C:\\Users\\alex.SISPLUS\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\armeabi-v7a\" write_batch_test",
+      "abi": "armeabi-v7a",
+      "output": "C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\armeabi-v7a\\write_batch_test"
+    },
+    "issue178_test-Debug-armeabi-v7a": {
+      "artifactName": "issue178_test",
+      "buildCommand": "C:\\Users\\alex.SISPLUS\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\armeabi-v7a\" issue178_test",
+      "abi": "armeabi-v7a",
+      "output": "C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\armeabi-v7a\\issue178_test"
+    },
+    "version_edit_test-Debug-armeabi-v7a": {
+      "artifactName": "version_edit_test",
+      "buildCommand": "C:\\Users\\alex.SISPLUS\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\armeabi-v7a\" version_edit_test",
+      "abi": "armeabi-v7a",
+      "output": "C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\armeabi-v7a\\version_edit_test"
+    },
+    "coding_test-Debug-armeabi-v7a": {
+      "artifactName": "coding_test",
+      "buildCommand": "C:\\Users\\alex.SISPLUS\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\armeabi-v7a\" coding_test",
+      "abi": "armeabi-v7a",
+      "output": "C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\armeabi-v7a\\coding_test"
+    },
+    "leveldb-Debug-armeabi-v7a": {
+      "artifactName": "leveldb",
+      "buildCommand": "C:\\Users\\alex.SISPLUS\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\armeabi-v7a\" leveldb",
+      "abi": "armeabi-v7a",
+      "output": "C:\\Projetos\\leveldb-android\\leveldb\\build\\intermediates\\cmake\\debug\\obj\\armeabi-v7a\\libleveldb.so"
+    },
+    "status_test-Debug-armeabi-v7a": {
+      "artifactName": "status_test",
+      "buildCommand": "C:\\Users\\alex.SISPLUS\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\armeabi-v7a\" status_test",
+      "abi": "armeabi-v7a",
+      "output": "C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\armeabi-v7a\\status_test"
+    },
+    "c_test-Debug-armeabi-v7a": {
+      "artifactName": "c_test",
+      "buildCommand": "C:\\Users\\alex.SISPLUS\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\armeabi-v7a\" c_test",
+      "abi": "armeabi-v7a",
+      "output": "C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\armeabi-v7a\\c_test"
+    },
+    "crc32c_test-Debug-armeabi-v7a": {
+      "artifactName": "crc32c_test",
+      "buildCommand": "C:\\Users\\alex.SISPLUS\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\armeabi-v7a\" crc32c_test",
+      "abi": "armeabi-v7a",
+      "output": "C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\armeabi-v7a\\crc32c_test"
+    },
+    "corruption_test-Debug-armeabi-v7a": {
+      "artifactName": "corruption_test",
+      "buildCommand": "C:\\Users\\alex.SISPLUS\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\armeabi-v7a\" corruption_test",
+      "abi": "armeabi-v7a",
+      "output": "C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\armeabi-v7a\\corruption_test"
+    },
+    "cache_test-Debug-armeabi-v7a": {
+      "artifactName": "cache_test",
+      "buildCommand": "C:\\Users\\alex.SISPLUS\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\armeabi-v7a\" cache_test",
+      "abi": "armeabi-v7a",
+      "output": "C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\armeabi-v7a\\cache_test"
+    },
+    "issue200_test-Debug-armeabi-v7a": {
+      "artifactName": "issue200_test",
+      "buildCommand": "C:\\Users\\alex.SISPLUS\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\armeabi-v7a\" issue200_test",
+      "abi": "armeabi-v7a",
+      "output": "C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\armeabi-v7a\\issue200_test"
+    },
+    "env_test-Debug-armeabi-v7a": {
+      "artifactName": "env_test",
+      "buildCommand": "C:\\Users\\alex.SISPLUS\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\armeabi-v7a\" env_test",
+      "abi": "armeabi-v7a",
+      "output": "C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\armeabi-v7a\\env_test"
+    },
+    "env_posix_test-Debug-armeabi-v7a": {
+      "artifactName": "env_posix_test",
+      "buildCommand": "C:\\Users\\alex.SISPLUS\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\armeabi-v7a\" env_posix_test",
+      "abi": "armeabi-v7a",
+      "output": "C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\armeabi-v7a\\env_posix_test"
+    },
+    "filename_test-Debug-armeabi-v7a": {
+      "artifactName": "filename_test",
+      "buildCommand": "C:\\Users\\alex.SISPLUS\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\armeabi-v7a\" filename_test",
+      "abi": "armeabi-v7a",
+      "output": "C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\armeabi-v7a\\filename_test"
+    },
+    "log_test-Debug-armeabi-v7a": {
+      "artifactName": "log_test",
+      "buildCommand": "C:\\Users\\alex.SISPLUS\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\armeabi-v7a\" log_test",
+      "abi": "armeabi-v7a",
+      "output": "C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\armeabi-v7a\\log_test"
+    },
+    "recovery_test-Debug-armeabi-v7a": {
+      "artifactName": "recovery_test",
+      "buildCommand": "C:\\Users\\alex.SISPLUS\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\armeabi-v7a\" recovery_test",
+      "abi": "armeabi-v7a",
+      "output": "C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\armeabi-v7a\\recovery_test"
+    },
+    "leveldbutil-Debug-armeabi-v7a": {
+      "artifactName": "leveldbutil",
+      "buildCommand": "C:\\Users\\alex.SISPLUS\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\armeabi-v7a\" leveldbutil",
+      "abi": "armeabi-v7a",
+      "output": "C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\armeabi-v7a\\leveldbutil"
+    },
+    "fault_injection_test-Debug-armeabi-v7a": {
+      "artifactName": "fault_injection_test",
+      "buildCommand": "C:\\Users\\alex.SISPLUS\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\armeabi-v7a\" fault_injection_test",
+      "abi": "armeabi-v7a",
+      "output": "C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\armeabi-v7a\\fault_injection_test"
+    },
+    "arena_test-Debug-armeabi-v7a": {
+      "artifactName": "arena_test",
+      "buildCommand": "C:\\Users\\alex.SISPLUS\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\armeabi-v7a\" arena_test",
+      "abi": "armeabi-v7a",
+      "output": "C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\armeabi-v7a\\arena_test"
+    },
+    "version_set_test-Debug-armeabi-v7a": {
+      "artifactName": "version_set_test",
+      "buildCommand": "C:\\Users\\alex.SISPLUS\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\armeabi-v7a\" version_set_test",
+      "abi": "armeabi-v7a",
+      "output": "C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\armeabi-v7a\\version_set_test"
+    },
+    "autocompact_test-Debug-armeabi-v7a": {
+      "artifactName": "autocompact_test",
+      "buildCommand": "C:\\Users\\alex.SISPLUS\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\armeabi-v7a\" autocompact_test",
+      "abi": "armeabi-v7a",
+      "output": "C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\armeabi-v7a\\autocompact_test"
+    },
+    "db_test-Debug-armeabi-v7a": {
+      "artifactName": "db_test",
+      "buildCommand": "C:\\Users\\alex.SISPLUS\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\armeabi-v7a\" db_test",
+      "abi": "armeabi-v7a",
+      "output": "C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\armeabi-v7a\\db_test"
+    },
+    "logging_test-Debug-armeabi-v7a": {
+      "artifactName": "logging_test",
+      "buildCommand": "C:\\Users\\alex.SISPLUS\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\armeabi-v7a\" logging_test",
+      "abi": "armeabi-v7a",
+      "output": "C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\armeabi-v7a\\logging_test"
+    },
+    "db_bench-Debug-armeabi-v7a": {
+      "artifactName": "db_bench",
+      "buildCommand": "C:\\Users\\alex.SISPLUS\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\armeabi-v7a\" db_bench",
+      "abi": "armeabi-v7a",
+      "output": "C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\armeabi-v7a\\db_bench"
+    }
+  }
+}

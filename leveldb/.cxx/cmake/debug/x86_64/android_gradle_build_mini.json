@@ -1,0 +1,212 @@
+{
+  "buildFiles": [
+    "C:\\Users\\alex.SISPLUS\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\build\\cmake\\android.toolchain.cmake",
+    "C:\\Users\\alex.SISPLUS\\AppData\\Local\\Android\\Sdk\\ndk-bundle\\build\\cmake\\platforms.cmake",
+    "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\port\\port_config.h.in",
+    "C:\\Projetos\\leveldb-android\\leveldb\\src\\main\\cpp\\CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "C:\\Users\\alex.SISPLUS\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\x86_64\" clean"
+  ],
+  "buildTargetsCommand": "C:\\Users\\alex.SISPLUS\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\x86_64\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "corruption_test-Debug-x86_64": {
+      "artifactName": "corruption_test",
+      "buildCommand": "C:\\Users\\alex.SISPLUS\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\x86_64\" corruption_test",
+      "abi": "x86_64",
+      "output": "C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\x86_64\\corruption_test"
+    },
+    "logging_test-Debug-x86_64": {
+      "artifactName": "logging_test",
+      "buildCommand": "C:\\Users\\alex.SISPLUS\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\x86_64\" logging_test",
+      "abi": "x86_64",
+      "output": "C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\x86_64\\logging_test"
+    },
+    "coding_test-Debug-x86_64": {
+      "artifactName": "coding_test",
+      "buildCommand": "C:\\Users\\alex.SISPLUS\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\x86_64\" coding_test",
+      "abi": "x86_64",
+      "output": "C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\x86_64\\coding_test"
+    },
+    "issue320_test-Debug-x86_64": {
+      "artifactName": "issue320_test",
+      "buildCommand": "C:\\Users\\alex.SISPLUS\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\x86_64\" issue320_test",
+      "abi": "x86_64",
+      "output": "C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\x86_64\\issue320_test"
+    },
+    "filter_block_test-Debug-x86_64": {
+      "artifactName": "filter_block_test",
+      "buildCommand": "C:\\Users\\alex.SISPLUS\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\x86_64\" filter_block_test",
+      "abi": "x86_64",
+      "output": "C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\x86_64\\filter_block_test"
+    },
+    "env_test-Debug-x86_64": {
+      "artifactName": "env_test",
+      "buildCommand": "C:\\Users\\alex.SISPLUS\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\x86_64\" env_test",
+      "abi": "x86_64",
+      "output": "C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\x86_64\\env_test"
+    },
+    "cache_test-Debug-x86_64": {
+      "artifactName": "cache_test",
+      "buildCommand": "C:\\Users\\alex.SISPLUS\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\x86_64\" cache_test",
+      "abi": "x86_64",
+      "output": "C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\x86_64\\cache_test"
+    },
+    "version_set_test-Debug-x86_64": {
+      "artifactName": "version_set_test",
+      "buildCommand": "C:\\Users\\alex.SISPLUS\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\x86_64\" version_set_test",
+      "abi": "x86_64",
+      "output": "C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\x86_64\\version_set_test"
+    },
+    "db_bench-Debug-x86_64": {
+      "artifactName": "db_bench",
+      "buildCommand": "C:\\Users\\alex.SISPLUS\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\x86_64\" db_bench",
+      "abi": "x86_64",
+      "output": "C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\x86_64\\db_bench"
+    },
+    "crc32c_test-Debug-x86_64": {
+      "artifactName": "crc32c_test",
+      "buildCommand": "C:\\Users\\alex.SISPLUS\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\x86_64\" crc32c_test",
+      "abi": "x86_64",
+      "output": "C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\x86_64\\crc32c_test"
+    },
+    "dbformat_test-Debug-x86_64": {
+      "artifactName": "dbformat_test",
+      "buildCommand": "C:\\Users\\alex.SISPLUS\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\x86_64\" dbformat_test",
+      "abi": "x86_64",
+      "output": "C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\x86_64\\dbformat_test"
+    },
+    "write_batch_test-Debug-x86_64": {
+      "artifactName": "write_batch_test",
+      "buildCommand": "C:\\Users\\alex.SISPLUS\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\x86_64\" write_batch_test",
+      "abi": "x86_64",
+      "output": "C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\x86_64\\write_batch_test"
+    },
+    "db_test-Debug-x86_64": {
+      "artifactName": "db_test",
+      "buildCommand": "C:\\Users\\alex.SISPLUS\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\x86_64\" db_test",
+      "abi": "x86_64",
+      "output": "C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\x86_64\\db_test"
+    },
+    "version_edit_test-Debug-x86_64": {
+      "artifactName": "version_edit_test",
+      "buildCommand": "C:\\Users\\alex.SISPLUS\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\x86_64\" version_edit_test",
+      "abi": "x86_64",
+      "output": "C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\x86_64\\version_edit_test"
+    },
+    "fault_injection_test-Debug-x86_64": {
+      "artifactName": "fault_injection_test",
+      "buildCommand": "C:\\Users\\alex.SISPLUS\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\x86_64\" fault_injection_test",
+      "abi": "x86_64",
+      "output": "C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\x86_64\\fault_injection_test"
+    },
+    "leveldbutil-Debug-x86_64": {
+      "artifactName": "leveldbutil",
+      "buildCommand": "C:\\Users\\alex.SISPLUS\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\x86_64\" leveldbutil",
+      "abi": "x86_64",
+      "output": "C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\x86_64\\leveldbutil"
+    },
+    "autocompact_test-Debug-x86_64": {
+      "artifactName": "autocompact_test",
+      "buildCommand": "C:\\Users\\alex.SISPLUS\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\x86_64\" autocompact_test",
+      "abi": "x86_64",
+      "output": "C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\x86_64\\autocompact_test"
+    },
+    "env_posix_test-Debug-x86_64": {
+      "artifactName": "env_posix_test",
+      "buildCommand": "C:\\Users\\alex.SISPLUS\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\x86_64\" env_posix_test",
+      "abi": "x86_64",
+      "output": "C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\x86_64\\env_posix_test"
+    },
+    "issue200_test-Debug-x86_64": {
+      "artifactName": "issue200_test",
+      "buildCommand": "C:\\Users\\alex.SISPLUS\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\x86_64\" issue200_test",
+      "abi": "x86_64",
+      "output": "C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\x86_64\\issue200_test"
+    },
+    "hash_test-Debug-x86_64": {
+      "artifactName": "hash_test",
+      "buildCommand": "C:\\Users\\alex.SISPLUS\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\x86_64\" hash_test",
+      "abi": "x86_64",
+      "output": "C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\x86_64\\hash_test"
+    },
+    "filename_test-Debug-x86_64": {
+      "artifactName": "filename_test",
+      "buildCommand": "C:\\Users\\alex.SISPLUS\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\x86_64\" filename_test",
+      "abi": "x86_64",
+      "output": "C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\x86_64\\filename_test"
+    },
+    "bloom_test-Debug-x86_64": {
+      "artifactName": "bloom_test",
+      "buildCommand": "C:\\Users\\alex.SISPLUS\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\x86_64\" bloom_test",
+      "abi": "x86_64",
+      "output": "C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\x86_64\\bloom_test"
+    },
+    "no_destructor_test-Debug-x86_64": {
+      "artifactName": "no_destructor_test",
+      "buildCommand": "C:\\Users\\alex.SISPLUS\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\x86_64\" no_destructor_test",
+      "abi": "x86_64",
+      "output": "C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\x86_64\\no_destructor_test"
+    },
+    "leveldb-Debug-x86_64": {
+      "artifactName": "leveldb",
+      "buildCommand": "C:\\Users\\alex.SISPLUS\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\x86_64\" leveldb",
+      "abi": "x86_64",
+      "output": "C:\\Projetos\\leveldb-android\\leveldb\\build\\intermediates\\cmake\\debug\\obj\\x86_64\\libleveldb.so"
+    },
+    "issue178_test-Debug-x86_64": {
+      "artifactName": "issue178_test",
+      "buildCommand": "C:\\Users\\alex.SISPLUS\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\x86_64\" issue178_test",
+      "abi": "x86_64",
+      "output": "C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\x86_64\\issue178_test"
+    },
+    "table_test-Debug-x86_64": {
+      "artifactName": "table_test",
+      "buildCommand": "C:\\Users\\alex.SISPLUS\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\x86_64\" table_test",
+      "abi": "x86_64",
+      "output": "C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\x86_64\\table_test"
+    },
+    "recovery_test-Debug-x86_64": {
+      "artifactName": "recovery_test",
+      "buildCommand": "C:\\Users\\alex.SISPLUS\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\x86_64\" recovery_test",
+      "abi": "x86_64",
+      "output": "C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\x86_64\\recovery_test"
+    },
+    "skiplist_test-Debug-x86_64": {
+      "artifactName": "skiplist_test",
+      "buildCommand": "C:\\Users\\alex.SISPLUS\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\x86_64\" skiplist_test",
+      "abi": "x86_64",
+      "output": "C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\x86_64\\skiplist_test"
+    },
+    "status_test-Debug-x86_64": {
+      "artifactName": "status_test",
+      "buildCommand": "C:\\Users\\alex.SISPLUS\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\x86_64\" status_test",
+      "abi": "x86_64",
+      "output": "C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\x86_64\\status_test"
+    },
+    "log_test-Debug-x86_64": {
+      "artifactName": "log_test",
+      "buildCommand": "C:\\Users\\alex.SISPLUS\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\x86_64\" log_test",
+      "abi": "x86_64",
+      "output": "C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\x86_64\\log_test"
+    },
+    "c_test-Debug-x86_64": {
+      "artifactName": "c_test",
+      "buildCommand": "C:\\Users\\alex.SISPLUS\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\x86_64\" c_test",
+      "abi": "x86_64",
+      "output": "C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\x86_64\\c_test"
+    },
+    "memenv_test-Debug-x86_64": {
+      "artifactName": "memenv_test",
+      "buildCommand": "C:\\Users\\alex.SISPLUS\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\x86_64\" memenv_test",
+      "abi": "x86_64",
+      "output": "C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\x86_64\\memenv_test"
+    },
+    "arena_test-Debug-x86_64": {
+      "artifactName": "arena_test",
+      "buildCommand": "C:\\Users\\alex.SISPLUS\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\x86_64\" arena_test",
+      "abi": "x86_64",
+      "output": "C:\\Projetos\\leveldb-android\\leveldb\\.cxx\\cmake\\debug\\x86_64\\arena_test"
+    }
+  }
+}
