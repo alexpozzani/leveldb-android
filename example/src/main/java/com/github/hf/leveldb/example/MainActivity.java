@@ -44,6 +44,7 @@ public class MainActivity extends AppCompatActivity {
                 LevelDB levelDB = null;
                 try {
                     String path = Environment.getExternalStorageDirectory().getPath() + "/sml/banco.db";
+
                     levelDB = LevelDB.open(path, LevelDB.configure().createIfMissing(true));
 
                     levelDB.put("leveldb".getBytes(), "Is awesome!".getBytes());
